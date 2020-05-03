@@ -1,0 +1,3 @@
+Install
+    - html webpack plugin
+        - npm i -D html-webpack-plugin
