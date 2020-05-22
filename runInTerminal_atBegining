@@ -1,3 +1,14 @@
 Install
+    - cLi tools
+        - npm i webpack webpack-cli
+    - babel(a toolchain that is mainly used to convert ECMAScript 2015+ code
+      into a backwards compatible version of JavaScript in current and older browsers or environments)
+        - npm i -D @babel/core @babel/preset-env babel-loader
     - html webpack plugin
         - npm i -D html-webpack-plugin
+    - clean plugin for get a blank dist folder
+        - npm i -D clean-webpack-plugin
+    - Webpack Bundle Analyzer
+        -npm install --save-dev webpack-bundle-analyzer
+    - Turn sass to css
+        - npm i -D style-loader node-sass css-loader sass-loader
