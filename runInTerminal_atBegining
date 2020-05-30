@@ -12,3 +12,9 @@ Install
         -npm install --save-dev webpack-bundle-analyzer
     - Turn sass to css
         - npm i -D style-loader node-sass css-loader sass-loader
+    - the Minimize CSS plugin, Optimize CSS Assets plugin, and terser plugin
+        - npm install mini-css-extract-plugin
+          npm install optimize-css-assets-webpack-plugin
+          npm install terser-webpack-plugin
+    - Google Workbox makes working with basic Service Workers incredibly convenient
+        - npm install workbox-webpack-plugin --save-dev

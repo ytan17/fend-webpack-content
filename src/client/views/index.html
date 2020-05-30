@@ -3,6 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Test</title>
+        <!-- register a Service Worker with our app -->
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performance
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>
     </head>
 
     <body>
